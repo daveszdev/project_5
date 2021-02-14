@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap');
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+input {
+    width: 400px;
+    height: 36px;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px
+}
+
+.search-box input {
+  font-size: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.photos-container {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: repeat(auto-fit, 200px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
